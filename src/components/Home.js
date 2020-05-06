@@ -18,7 +18,7 @@ export default function Home({ navigation }) {
 
 function Item({ item }) {
   return (
-    <CardSection passedStyle={styles.sectionStyle}>
+    <CardSection newStyle={styles.sectionStyle}>
       <Text>{item.serial}</Text>
       <Text>{item.membership}</Text>
       <Text>{item.name}</Text>

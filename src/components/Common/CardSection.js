@@ -4,7 +4,7 @@ import { View } from 'react-native';
 class CardSection extends Component {
     render() {
         return (
-            <View style={styles.sectionStyle, this.props.passedStyle}>
+            <View style={styles.sectionStyle, this.props.newStyle}>
                 {this.props.children}
             </View>
         );

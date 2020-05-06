@@ -9,7 +9,7 @@ export default function Home({ navigation }) {
 
   return (
     <Card>
-      <CardSection passedStyle={styles.sectionStyle}>
+      <CardSection newStyle={styles.sectionStyle}>
         <Input
           label="Search:"
           placeholder="Enter Search"
@@ -17,7 +17,7 @@ export default function Home({ navigation }) {
           defaultValue={search}
         />
       </CardSection>
-      <CardSection passedStyle={styles.sectionStyle}>
+      <CardSection newStyle={styles.sectionStyle}>
         <Button onPress={() => searchHere()}>Search</Button>
       </CardSection>
     </Card>
