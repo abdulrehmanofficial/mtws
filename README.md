@@ -1,2 +1,2 @@
 # mtws
-React Native App for Model Town Welfare Society Voter List
+React Native App for a Welfare Society Voter List
